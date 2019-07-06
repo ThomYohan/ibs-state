@@ -7,12 +7,12 @@
     width: 100vw;
 }
 
-.navPlaceholder {
+/* .navPlaceholder {
     display: flex;
     height: 150px;
     background-color: blue;
     color: white;
-}
+} */
 
 .contentBox {
     display: flex;

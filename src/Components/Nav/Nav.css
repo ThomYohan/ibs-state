@@ -1,0 +1,12 @@
+.Nav {
+    display: flex;
+    height: 150px;
+    background-color: #3F8D78;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+}
