@@ -1,0 +1,73 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    width: 100vw;
+}
+
+.navPlaceholder {
+    display: flex;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    width: 500px;
+    height: 500px;
+    margin: 150px;
+    border-radius: 20px;
+    background-color: #B8D6B2;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.336);
+
+}
+
+.aboutBox {
+    margin: 10px;
+}
+
+.ybox {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 150px;
+    border-radius: 20px;
+    background-color: #B8D6B2;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.336);
+}
+
+.workButton {
+    background: linear-gradient(45deg, #E9E7AA 50%, white 50%);
+    background-size: 250% 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+    transition: all ease-in-out .5s;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.workButton:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+.ybox:hover {
+}
+
+.whyBox {
+    /* margin: 10px; */
+}
